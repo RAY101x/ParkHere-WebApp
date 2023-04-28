@@ -1,0 +1,653 @@
+
+/*##############################################*/
+				/*Navigation*/
+/*#############################################*/
+/*.head{
+	background-color: #fdad33;
+	box-shadow: 0px 0px 10px 0px;
+	transition: all 0.6s ease-in;
+	width: 100%;
+	height: 76px;
+    position: fixed;
+    z-index: 500;
+}
+
+header{
+	width: 100%;
+}
+
+header .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+.navbar-nav li{
+	height: 35px;
+}
+
+.navbar-nav a{
+	font-size: 13px;
+	color: black !important;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px 15px !important;
+}
+
+.link-a1:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a2:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a3:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a4:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a5:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+
+
+.link-a6{
+	color: white!important; 
+	background-color: #ffcc00;
+	border-radius: 20px;
+}
+
+.link-a6:hover{
+	color: black!important; 
+	background-color: #ffd201;
+	box-shadow: 0 0 3px;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+
+
+.upperspace{
+	padding-top: 100px;
+}
+*/
+
+/*##############################################*/
+				/*banner area*/
+/*#############################################*/
+.banner-area{
+	/*background-image: linear-gradient(to right, #fe8c00 , #f83600);*/
+	position: relative;
+}
+
+/*.banner-area .row{
+	padding-top: 100px;
+}*/
+
+.banner-img{
+	height: 400px;
+}
+
+.banner-content{
+	text-align:center;
+	padding-top: 50px;
+}
+
+.banner-content .hr-1 {
+	width:55%;
+	height: 4px;
+	background-color: black;
+}
+
+
+/*.square-pattern{
+	position: absolute;
+}
+.square-pattern img{
+	position: absolute;
+	right: 0;
+	top: 350px!important;
+	width:25%; 
+}*/
+
+
+/*##############################################*/
+				/*Insurecnce Card*/
+/*#############################################*/
+.insurence-card{
+	box-shadow: 0px 0px 20px grey;
+	height: 550px;
+}
+
+.card-scrollbar{
+	overflow-y: scroll;
+	background-color: #EBEBEB;
+}
+
+.card-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.card-scrollbar::-webkit-scrollbar-thumb {
+  background: #FDAD33;
+  border-radius: 10px;
+}
+
+.service-card{
+	margin: 5px 0px;
+}
+
+.media-icon-first, .media-icon-last{
+	color: #FDAD33;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.media-icon-last{
+	font-size: 20px;
+}
+
+.insurence-card .card-body .media-body a{
+	width: 100%;
+	font-size: 14px;
+	color: black;
+	/*padding-top: 7px;
+	padding-bottom: 2px;*/
+	font-weight: bold;
+}
+
+.ins-option a, .ins-option i{
+	padding-top: 28px;
+	padding-bottom: 20px;
+}
+
+.insurence-card .card-body .media-body a:hover{
+	text-decoration: none;
+}
+
+
+.service-card .media-body a{
+	width: 100%;
+	font-size: 14px;
+	color: black;
+	/*padding-top: 7px;
+	padding-bottom: 2px;*/
+	font-weight: bold;
+	transition: 1s;
+}
+
+.service-card .media-body a:hover{
+	text-decoration: none;
+	padding-left: 20px;
+	transition: 1s;
+	color: orange;	
+}
+
+/*.service-img{
+	width: 40px; 
+	height: auto;
+}*/
+.in-options-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: orange;
+    border: 3px solid black;
+}
+
+.service-img {
+    width: 80px;
+    height: 70px;
+    padding: 10px 5px 0px 5px;
+}
+
+
+.service-details-menu{
+	width: 100%;
+	background-color: #F2F3F4;
+	padding: 25px;
+	margin: 40px 0px 20px 0px;
+	font-size: 20px;
+}
+
+
+.service-menu-item{
+	padding: 10px 20px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+
+
+.back{
+	color: black;
+}
+
+.back:hover{
+	color: orange;
+}
+
+
+
+
+
+
+/*##################################
+		insurence form
+##################################*/
+
+
+
+
+.contact-form form input::placeholder{
+	color: silver!important;
+}
+
+.contact-form .form-group{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.contact-form form{
+	/*background-color: silver;*/
+	border:1px solid silver;
+	padding: 80px;
+	border-radius: 5px;
+}
+
+
+.applicant-apply-btn{
+	margin-top: 50px;
+	padding: 12px 30px;
+	border-radius: 5px;
+	border:none;
+	background-color: #FDAD33;
+	z-index: 10!important;
+	opacity: 1!important; 
+}
+
+.applicant-apply-btn:hover{
+	background-color: #FFCC00;
+	color: black;
+}
+
+
+.contact-form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: orange;
+    outline: 0;
+    box-shadow: none!important; 
+}
+
+
+
+	.insurence-sign-up-form{
+		/*padding: 0px 30px;*/
+		padding-top: 10px;
+		padding-bottom: 15px;
+		/*background-color: transparent;*/
+	}
+
+	.sign-up{
+		/*background-color: white;*/
+		padding: 50px;
+	}
+
+	.insurence-sign-up-form .form-group{
+		padding: 5px 0px;
+	}
+
+	.form-control:focus{
+		box-shadow: none!important;
+		border-color: #FF8C00!important;
+	}
+
+	
+
+	.sign-up-btn{
+		background-color: #FFCC00;
+		font-weight: bold;
+	}
+
+	.sign-up-btn:hover{
+		background-color: #FDAD33;
+	}
+
+	.btn:focus{
+		box-shadow: none!important;
+	}
+
+	.sign-up-modal .modal-body{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.sign-up-modal input{
+		border-top: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		/*border-radius: 0px;*/
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+	.fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    background-color: #b08819 !important;
+	}
+
+	.navbar-toggler {
+	    background-color: #FFCC00!important;
+	}
+}
+
+
+
+@media screen and (max-width: 575px) {
+	.navbar-toggler {
+	    background-color: #FFCC00!important;
+	}
+
+	.fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    background-color: darkorange;
+	}
+	
+	.banner-img{
+		height: auto!important;
+	}
+
+	/*form{
+		padding: 30px;
+	}*/
+	.form-group {
+	     padding-top: 0px; 
+	     padding-bottom: 0px; 
+	}
+
+
+
+	.footer-area{
+		padding-top:270px;
+		margin-top: 0px;
+	}
+
+	.get-started-content{
+		padding-bottom: 10px;
+	}
+
+	.footer-list ul li{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.social-content{
+		text-align: center;
+		padding-top: 20px;
+	}
+	.footer-list p{
+		margin-bottom: 8px;
+	}
+
+	.footer-list ul{
+		text-align: center;
+	}
+
+}
+
+
+
+
+/*##############################################*/
+			/* Footer Area */
+/*#############################################*/
+
+/*.footer-area{
+	background-image: url("../../../img/footer.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 250px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+}
+
+.get-started-content{
+	padding-bottom: 60px;
+}
+
+
+.footer-area h3{
+	color: white;
+}
+
+
+.footer-area p{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.footer-area input{
+	border-radius: 0px;
+}
+
+.footer-area .btn-primary{
+	background-color: none;
+	outline: none;
+}
+
+.email-button{
+	background-color: #009e8a!important;
+	border:none;
+}
+
+.email-button:hover{
+	border:none;
+}
+
+.footer-list ul{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+.footer-list ul li{
+	list-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.footer-list ul li a{
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer-list a:hover {
+	text-decoration: none!important;
+	color: black!important;
+}
+
+
+
+.social-content{
+	text-align: center;
+	padding-top: 20px;
+}
+.social-content ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.social-content ul li{
+	list-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+}
+
+.social-content ul li a{
+	font-size: 13px;
+	height: 35px;
+	width: 35px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	background-image: linear-gradient(#2559a9,#1b407a);
+	border-radius: 50%;
+}
+
+.social-content ul li a i{
+	font-size: 16px;
+	line-height: 35px;
+}
+*/
+
+
+/*####################################################################################*/
+			/* FOR SMALL SIZED DEVICES | MAX WIDTH:575PX*/
+/*####################################################################################*/
+@media screen and (max-width: 575px){
+	.insurence-card .card-body .media-body{
+		font-size: 12px;
+	}
+
+	.media-icon-first, .media-icon-last{
+		font-size: 15px;
+	}
+}
+.serviceCard:hover{
+    background:#bdc3c7 !important;
+    cursor:pointer;
+    padding:10px 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*##############################################*/
+			/* Millions of job */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Top Company */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Browse jobs by Category */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Come join with us */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Testimonials Area */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Footer Area */
+/*#############################################*/
+
+
+
+
+
+
+
+

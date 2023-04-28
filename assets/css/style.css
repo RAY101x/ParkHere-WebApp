@@ -1,0 +1,976 @@
+/*.........................................*/
+/*PX to REM*/
+/*
+	66px = 4.125rem
+	56px = 3.5rem
+	46px = 2.875rem
+	22px = 1.375rem
+*/
+
+/*..........................................*/
+
+/*##############################################*/
+/*Basic Config*/
+/*#############################################*/
+
+:root {
+	--heading-color: #112d58;
+	--orange-color: #fdad33;
+	--pgf-color: #958fab;
+
+	--heading-font: "Poppins", sans-serif;
+	--pgf-font: "Rubik", sans-serif;
+
+	--small-pgf-size: 1.8em; /*29px*/
+}
+
+h1 {
+	font-size: 46px; /*66px*/
+	color: var(--heading-color);
+	font-family: var(--heading-font);
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 36px; /*56px*/
+	color: var(--heading-color);
+	font-family: var(--heading-font);
+}
+
+h3 {
+	font-size: 22px; /*46px*/
+	font-family: var(--heading-font);
+	color: var(--heading-color);
+}
+
+p {
+	font-size: 14px; /*22px*/
+	/*color: var(--pgf-color);*/
+	font-family: var(--pgf-font);
+}
+
+body {
+   background-color: #ecf0f1 !important;
+}
+/*############## Star Review ###############*/
+/*.starrating > input {display: none;}
+.starrating > label:before { 
+  content: "\f005";
+  margin: 2px;
+  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
+  display: inline-block; 
+}
+.starrating > label{color: #222222;}
+.starrating > input:checked ~ label{ color: #ffca08 ; } 
+.starrating > input:hover ~ label{ color: #ffca08 ;  }*/
+
+/*############## Star Review ###############*/
+.headerImg {
+	display: none;
+}
+.review_area {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 8px 0px;
+}
+
+.stars-outer {
+	position: relative;
+	display: inline-block;
+}
+
+.stars-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 0;
+	/*font-size: 14px!important;*/
+}
+
+.stars-outer::before {
+	content: "\f005 \f005 \f005 \f005 \f005";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 14px !important;
+	color: #ccc;
+}
+
+.stars-inner::before {
+	content: "\f005 \f005 \f005 \f005 \f005";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: #f8ce0b;
+	font-size: 14px !important;
+}
+
+/*##############################################*/
+/*Basic Config End*/
+/*#############################################*/
+
+/*##############################################*/
+/*Navigation*/
+/*#############################################*/
+.head {
+	background-color: #b08819;
+	box-shadow: 0px 0px 17px 0px;
+	transition: all 0.6s ease-in;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	z-index: 500;
+}
+
+header {
+	width: 100%;
+}
+
+header .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+header a {
+	font-size: 15px;
+}
+
+.navbar-brand {
+	font-family: var(--pgf-font);
+	font-weight: bold;
+	font-style: italic;
+}
+
+.navbar-nav li {
+	height: 35px;
+}
+
+.navbar-nav a {
+	font-size: 13px;
+	color: black !important;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px 15px !important;
+}
+
+.link-a1:hover {
+	color: #2ea94a !important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a2:hover {
+	color: #2ea94a !important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a3:hover {
+	color: #2ea94a !important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a4:hover {
+	color: #2ea94a !important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a5:hover {
+	color: #2ea94a !important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a6 {
+	color: white !important;
+	background-color: #ffcc00;
+	border-radius: 20px;
+}
+
+.link-a6:hover {
+	color: black !important;
+	background-color: #ffd201;
+	box-shadow: 0 0 3px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+.upperspace {
+	padding-top: 100px;
+}
+
+/*##############################################*/
+/*find job*/
+/*#############################################*/
+
+.find-job-area {
+	position: relative;
+	padding-top: 83px;
+	padding-bottom: 6px;
+}
+
+.header-img img {
+	position: absolute;
+	height: 170%;
+	width: 80%;
+	right: 0;
+	top: 0px;
+}
+
+.find-job-content {
+	padding-top: 100px;
+}
+
+.find-job-input-container {
+	border: 1px solid lightgray;
+	background-color: white;
+	width: 100%;
+	border-radius: 50px;
+	box-shadow: 0 2px 20px lightgray;
+	margin-top: 35px;
+}
+
+.find-job-input {
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 30px;
+	padding-left: 6px;
+	margin: 3px;
+	padding-bottom: 3px;
+	margin-left: 15px;
+}
+
+.find-job-search-btn {
+	background-color: #ffa024; /*orange*/
+	width: 30px;
+	height: 30px;
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 50%;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.find-job-search-btn i {
+	padding-left: 2px;
+}
+
+.find-job-input::placeholder {
+	color: lightgray;
+	font-size: 0.8rem;
+}
+
+.fas-search {
+	color: white;
+}
+
+/*##############################################*/
+/*find passion*/
+/*#############################################*/
+
+.find-passion-area {
+	padding-top: 150px;
+	padding-bottom: 70px;
+	position: relative;
+}
+
+.find-passion-content {
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.find-passion-content p {
+	padding-top: 15px;
+}
+
+.find-passion-img {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.find-passion-vector img {
+	position: absolute;
+	left: 0;
+	top: -70px;
+	height: 50%;
+}
+
+/*##############################################*/
+/* Millions of job */
+/*#############################################*/
+
+.millions-job-area {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.millions-job-content {
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.millions-job-content p {
+	padding-top: 15px;
+}
+
+/*##############################################*/
+/* Top Company */
+/*#############################################*/
+
+.top-company-area {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.top-company-content {
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.top-company-content p {
+	padding-top: 15px;
+}
+
+/*##############################################*/
+/* Browse jobs by Category */
+/*#############################################*/
+
+.browse-job-area {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+}
+.square-pattern-home img {
+	top: 0px;
+	height: 300px;
+	position: absolute;
+	right: 0;
+}
+
+.browse-job-content {
+	padding-top: 00px;
+	text-align: center;
+}
+
+.browse-job-area .card {
+	box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+     transition: all 0.3s ease-out;
+	border-radius: 15px;
+	padding: 15px 32px;
+	text-align: center;
+	border: none;
+	max-width: 200px;
+	max-height: 220px;
+	margin: 40px 0px;
+	background-color:#fff;
+}
+.browse-job-area .card img {
+	height: 123px;
+}
+
+.browse-job-area .card:hover {
+	/*box-shadow: 0px 0px 20px 15px #bdcdfe;*/
+	/*background-image: linear-gradient(#ffb900, #ff9700);*/
+	transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+    color:#000;
+}
+
+.browse-job-area .card a {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: var(--heading-font);
+}
+.browse-job-area .card a:hover {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+.square-pattern img {
+	position: absolute;
+	right: 0;
+	top: 360px !important;
+	width: 25%;
+}
+
+/*##############################################*/
+/* Come join with us */
+/*#############################################*/
+
+.join-us-area {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.join-us-area .col-lg-12 {
+	padding: 0px !important;
+}
+
+.join-us-content {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/*##############################################*/
+/* Testimonials Area */
+/*#############################################*/
+.testimonial-area {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.testimonial-header {
+	margin-bottom: 50px;
+}
+
+.testimonial-area .card img {
+	height: 100px !important;
+	width: 100px !important;
+	border-radius: 50%;
+	position: absolute;
+	left: 30%;
+	top: 0px;
+}
+
+.testimonial-area .card {
+	height: 300px;
+	border: none;
+	margin-bottom: 100px;
+}
+
+.testimonial-area .card-body {
+	margin-top: 55px;
+	padding-top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	box-shadow: 0px 0px 20px 15px #f2f8fd;
+	border-radius: 10px;
+}
+
+.star-icon {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.star-icon i {
+	color: #ffa024;
+	font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1199px) {
+	.testimonial-area .card img {
+		height: 90px;
+		width: 90px;
+		left: 28%;
+		top: 4%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.testimonial-area .card img {
+		height: 90px;
+		width: 90px;
+		left: 32%;
+		top: 4%;
+	}
+
+	.testimonial-area .card-body {
+		padding-top: 70px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.testimonial-area .card img {
+		height: 90px;
+		width: 90px;
+		left: 28%;
+		top: 4%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.testimonial-area .card img {
+		height: 90px;
+		width: 90px;
+		left: 22%;
+		top: 4%;
+	}
+	.testimonial-header h3 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 449px) {
+	.testimonial-area .card img {
+		height: 80px;
+		width: 80px;
+		left: 35%;
+		top: 5%;
+	}
+	.testimonial-header h3 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.testimonial-area .card img {
+		height: 80px;
+		width: 80px;
+		left: 35%;
+		top: 5%;
+	}
+}
+
+@media screen and (max-width: 280px) {
+	.testimonial-area .card img {
+		height: 70px;
+		width: 70px;
+		left: 35%;
+		top: 7%;
+	}
+}
+
+/*##############################################*/
+/* Footer Area */
+/*#############################################*/
+
+.footer-area {
+	background-image: url("../img/footer.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 250px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+}
+
+.get-started-content {
+	padding-bottom: 60px;
+}
+
+.footer-area h3 {
+	color: white;
+}
+
+.footer-area p {
+	color: white;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.footer-area input {
+	border-radius: 0px;
+}
+
+.footer-area .btn-primary {
+	background-color: none;
+	outline: none;
+}
+
+.email-button {
+	background-color: #009e8a !important;
+	border: none;
+}
+
+.email-button:hover {
+	border: none;
+}
+
+.footer-list ul {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+.footer-list ul li {
+	list-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.footer-list ul li a {
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer-list a:hover {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.social-content {
+	text-align: center;
+	padding-top: 20px;
+}
+.social-content ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.social-content ul li {
+	list-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+}
+
+.social-content ul li a {
+	font-size: 13px;
+	height: 35px;
+	width: 35px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	background-image: linear-gradient(#2559a9, #1b407a);
+	/*padding: 10px;*/
+	border-radius: 50%;
+}
+
+.social-content ul li a i {
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.map-area {
+	padding: 50px 10px;
+	color: black;
+}
+
+.parkingkoi-address {
+	padding: 30px 10px;
+}
+
+/*####################################################################################*/
+/* FOR SMALL SIZED DEVICES | MAX WIDTH:992PX*/
+/*####################################################################################*/
+
+@media screen and (max-width: 992px) {
+	.find-job-area,
+	.find-passion-area,
+	.millions-job-area,
+	.browse-job-area,
+	.top-company-area,
+	.join-us-area,
+	.testimonial-area {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.header-img img {
+		position: absolute;
+		height: 140%;
+		width: 70%;
+		right: 0;
+		top: 0px;
+	}
+	.find-job-content,
+	.find-passion-content,
+	.find-passion-content,
+	.millions-job-content,
+	.top-company-content {
+		padding-top: 30px;
+	}
+
+	.get-started-content {
+		padding-bottom: 35px;
+	}
+
+	.square-pattern-home img {
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	header a {
+		font-size: 12px !important;
+	}
+
+	.nav-item {
+		padding-left: 8px !important;
+		padding-right: 8px !important;
+	}
+
+	.navbar-nav a {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.find-job-content,
+	.find-passion-content,
+	.find-passion-content,
+	.millions-job-content,
+	.top-company-content {
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.nav-item {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	header a {
+		font-size: 14px;
+	}
+
+	.navbar-nav li {
+		height: 35px;
+	}
+
+	.navbar-nav a {
+		color: white;
+		display: block;
+		padding-top: 5px !important;
+		text-align: center;
+	}
+
+	.navbar-nav a:hover {
+		color: #2da949;
+		transition: all 0.5s ease-in;
+	}
+
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: darkorange;
+	}
+
+	.navbar-toggler {
+		background-color: #ffcc00;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.find-passion-area,
+	.millions-job-area,
+	.browse-job-area,
+	.top-company-area,
+	.join-us-area,
+	.testimonial-area {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.find-job-area {
+		padding-top: 60px;
+	}
+
+	.navbar-nav a {
+		color: black !important;
+	}
+
+	.navbar-nav a:hover {
+		color: #2da949;
+		transition: all 0.5s ease-in;
+	}
+
+	.navbar-toggler {
+		background-color: #ffcc00;
+	}
+
+	.testimonial-area {
+		padding-bottom: 0px !important;
+	}
+
+	.header-img img {
+		position: absolute;
+		height: 100%;
+		width: 96%;
+		right: 0;
+		top: 0px;
+	}
+	.find-job-content,
+	.find-passion-content,
+	.find-passion-content,
+	.millions-job-content,
+	.top-company-content {
+		padding-top: 30px;
+	}
+
+	.find-job-input-container {
+		margin-top: 17px;
+	}
+
+	.find-passion-vector img {
+		position: absolute;
+		left: 0;
+		top: -20px !important;
+		height: 30% !important;
+	}
+
+	.find-passion-img img {
+		width: 50%;
+		margin-x: auto;
+	}
+
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: #b08819;
+	}
+
+	.browse-job-area .card {
+		border-radius: 15px;
+		padding: 8px;
+		text-align: center;
+		border: none;
+		max-width: 150px;
+		max-height: 180px;
+		margin: 40px 0px;
+	}
+	.browse-job-area .card img {
+		height: 100px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.browse-job-area .card a {
+		color: #000;
+		font-size: 14px;
+		font-weight: bold;
+		font-family: var(--heading-font);
+	}
+	.browse-job-area .card a:hover {
+		text-decoration: none;
+		color: black;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+	.get-started-content {
+		padding-bottom: 35px;
+	}
+
+	.square-pattern-home img {
+		height: 250px;
+	}
+	.find-passion-img {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.find-passion-vector img {
+		position: absolute;
+		left: 0;
+		top: -70px;
+		height: 50%;
+	}
+
+	.footer-area {
+		padding-top: 270px;
+		margin-top: 0px;
+	}
+
+	.get-started-content {
+		padding-bottom: 10px;
+	}
+
+	.footer-list ul li {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.social-content {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.footer-list p {
+		margin-bottom: 8px;
+	}
+
+	.footer-list ul {
+		text-align: center;
+	}
+
+	.app-links img {
+		width: 144px !important;
+		float: left !important;
+	}
+
+	.hourly_img {
+		display: none !important;
+	}
+}
+
+.app-links img {
+	width: 200px;
+	float: left;
+}
+
+/*req*/
+.contactForm .label {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.contact-wrap {
+  /* background-color: red; */
+  border: 5px solid #fff;
+}
+.reqTitle {
+  position: relative;
+}
+.reqTitle::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: #27ae60;
+  position: absolute;
+  left: 35%;
+  top: 50px;
+  z-index: -2;
+}
+.reqTitle::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 2px;
+  background: #27ae60;
+  position: absolute;
+  left: 40%;
+  top: 60px;
+  z-index: -2;
+}
+
+@media only screen and (max-width: 600px) {
+  .formArea {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .formArea {
+    padding: 30px;
+  }
+}
+
+.searchArea {
+  border: 5px solid #fff;
+}
+
+

@@ -1,0 +1,670 @@
+html{
+	scroll-behavior: smooth;
+}
+/*##############################################*/
+				/*Navigation*/
+/*#############################################*/
+/*.head{
+	background-color: #fdad33;
+	box-shadow: 0px 0px 10px 0px;
+	transition: all 0.6s ease-in;
+	width: 100%;
+	height: 76px;
+    position: fixed;
+    z-index: 500;
+}
+
+header{
+	width: 100%;
+}
+
+header .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+.navbar-nav li{
+	height: 35px;
+}
+
+.navbar-nav a{
+	font-size: 13px;
+	color: black !important;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px 15px !important;
+}
+
+.link-a1:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a2:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a3:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a4:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+.link-a5:hover{
+	color: #2EA94A!important;
+	transition: all 0.3s ease-in;
+}
+
+
+
+.link-a6{
+	color: white!important; 
+	background-color: #ffcc00;
+	border-radius: 20px;
+}
+
+.link-a6:hover{
+	color: black!important; 
+	background-color: #ffd201;
+	box-shadow: 0 0 3px;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+*/
+
+/*##############################################*/
+				/*banner area*/
+/*#############################################*/
+.banner-area{
+	/*background-image: linear-gradient(to right, #fe8c00 , #f83600);*/
+	position: relative;
+}
+
+/*.banner-area .row{
+	padding-top: 100px;
+}
+*/
+.banner-img{
+	height: 400px;
+}
+
+.banner-content{
+	text-align:center;
+	padding-top: 50px;
+}
+
+.banner-content .hr-1 {
+	width:60%;
+	height: 4px;
+	background-color: black;
+}
+
+.banner-content .hr-2 {
+	width:23%;
+	height: 4px;
+	background-color: black;
+}
+
+/*.square-pattern{
+	position: absolute;
+}
+.square-pattern img{
+	position: absolute;
+	right: 0;
+	top: 350px!important;
+	width:25%; 
+}
+
+*/
+
+
+
+.contact-form form input::placeholder{
+	color: silver!important;
+}
+
+.contact-form .form-group{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.contact-form form{
+	/*background-color: silver;*/
+	border:1px solid silver;
+	padding: 80px;
+}
+
+
+.applicant-apply-btn{
+	margin-top: 50px;
+	padding: 12px 30px;
+	border-radius: 5px;
+	border:none;
+	background-color: #FDAD33;
+	z-index: 10!important;
+	opacity: 1!important; 
+}
+
+.applicant-apply-btn:hover{
+	background-color: #FFCC00;
+	color: black;
+}
+
+
+.footer-list a:hover {
+	text-decoration: none!important;
+	color: black!important;
+}
+
+
+
+
+/*##############################################*/
+				/*find-parking-table*/
+/*#############################################*/
+
+.career-table{
+	padding-top: 150px!important;
+}
+
+.career-table thead{
+	background-color: #fdad33;
+	color: white;
+}
+
+.career-table button{
+	background-color: #fdad33;
+	border: none;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+.career-table button{
+	padding: 12px 25px;
+}
+
+.career-table button:hover{
+	background-color: #FFCC00;
+}
+
+
+
+
+
+
+
+/*##############################################*/
+			/* apply now btn | career details*/
+/*#############################################*/
+.apply-now-btn{
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 20px 30px;
+	background-color: #FDAD33;
+	border: none;
+	margin-top: 30px;
+}
+
+.apply-now-btn:hover{
+	background-color: #FFCC00;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+/*##############################################*/
+			/* Footer Area */
+/*#############################################*/
+
+/*.footer-area{
+	background-image: url("assets/img/footer.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 250px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+}
+
+.get-started-content{
+	padding-bottom: 60px;
+}
+
+
+.footer-area h3{
+	color: white;
+}
+
+
+.footer-area p{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.footer-area input{
+	border-radius: 0px;
+}
+
+.footer-area .btn-primary{
+	background-color: none;
+	outline: none;
+}
+
+.email-button{
+	background-color: #009e8a!important;
+	border:none;
+}
+
+.email-button:hover{
+	border:none;
+}
+
+.footer-list ul{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+.footer-list ul li{
+	list-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.footer-list ul li a{
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.social-content{
+	text-align: center;
+	padding-top: 20px;
+}
+.social-content ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.social-content ul li{
+	list-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+}
+
+.social-content ul li a{
+	font-size: 13px;
+	height: 35px;
+	width: 35px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	background-image: linear-gradient(#2559a9,#1b407a);
+	border-radius: 50%;
+}
+
+.social-content ul li a i{
+	font-size: 16px;
+	line-height: 35px;
+}
+
+*/
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	.fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    background-color: darkorange;
+	}
+	
+	.navbar-toggler {
+	    background-color: #FFCC00!important;
+	}
+
+}
+
+
+@media screen and (max-width: 575px) {
+	.navbar-toggler {
+	    background-color: #FFCC00!important;
+	}
+
+	.banner-img{
+		height: auto!important;
+	}
+
+	.fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    background-color: darkorange;
+	}
+
+
+
+	/*for data-tabble table customization*/
+	.find-parking-table table td{
+		font-size: 12px !important;
+	}
+
+	.find-parking-table table th{
+		font-size: 14px !important;
+	}
+
+	.find-parking-table button{
+		font-size: 12px!important;
+		padding: 5px!important;
+	}
+
+
+	/*this is datatables pagination class*/
+	.page-link{
+		padding: 0.2rem .5rem !important;
+	}
+
+
+
+
+/*	.footer-area{
+		padding-top:270px;
+		margin-top: 0px;
+	}
+
+	.get-started-content{
+		padding-bottom: 10px;
+	}
+
+	.footer-list ul li{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.social-content{
+		text-align: center;
+		padding-top: 20px;
+	}
+	.footer-list p{
+		margin-bottom: 8px;
+	}
+
+	.footer-list ul{
+		text-align: center;
+	}*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*############################ New Career Page ########################*/
+	h2{
+		color: #FDAD33!important;
+	}
+
+	.upper-space{
+		padding-top: 76px;
+	}
+
+	.join-us-career{
+		background-image:linear-gradient(to right, rgba(34,37,56,1), rgba(34,37,56,0.6), rgba(0,0,0,0)), url("../img/career3.jpg");
+		/*background-size: 100% 100%;*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+
+	.about-career{
+		background-image:linear-gradient(to right, rgba(34,37,56,0.9), rgba(34,37,56,0.8), rgba(0,0,0,0)), url("../img/career1.html");
+	}
+	.our-team{
+		background-image:linear-gradient(to right, rgba(34,37,56,0.9), rgba(34,37,56,0.8), rgba(0,0,0,0)), url("../img/bg.html");
+	} 
+	.parkingkoi{
+		background-image:linear-gradient(to right, rgba(34,37,56,0.9), rgba(34,37,56,0.8), rgba(0,0,0,0)), url("../img/bg.html");
+	}
+	.benefits{
+		background-image:linear-gradient(to right, rgba(34,37,56,0.9), rgba(34,37,56,0.8), rgba(0,0,0,0)), url("../img/bg.html");
+	}
+
+
+	.about-career, .our-team, .parkingkoi, .benefits{
+		/*background-image:linear-gradient(to right, rgba(34,37,56,0.9), rgba(34,37,56,0.8), rgba(0,0,0,0)), url("../../assets/img/bg.jpg");*/
+		/*background-size: 100% 100%;*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;	
+	}
+
+	.join-us-career-content, .about-career-content, .our-team-content, .parkingkoi-content{
+		padding: 100px 20px;
+		color: white;
+	}
+
+	.join-us-btn{
+		background-color: #fdad33;
+		padding: 10px 30px;
+		scroll-behavior: smooth;
+		color: black;
+		text-decoration: none;
+		border-radius: 5px;
+
+	}
+	.join-us-btn:hover{
+		color: black;
+		text-decoration: none;
+		background-color: #FFCC00;
+	}
+
+
+
+
+	.video-area{
+		padding: 50px 10px;
+	}
+
+
+
+
+
+
+	.ceo-info{
+		padding: 100px 30px;
+		/*background-color: #21303E;*/
+		/*background-color: #C1C1C1;*/
+		color: black;
+	}
+	.ceo-info img{
+		border-radius: 50%;
+		/*padding: 10px;*/
+	}
+
+	.ceo-content{
+		padding-left: 30px;
+		padding-top: 20px;
+	}
+
+
+
+	.team-gallery{
+		padding: 100px 30px;
+		color: white;
+	}
+
+
+
+	.map-area{
+		padding: 50px 10px;
+		color: black;
+	}
+
+	.parkingkoi-address{
+		padding: 30px 10px;
+	}
+
+	/*.map-area, .map-area p, .map-area address, .map-area u{
+		color: black;
+	}*/
+
+	.job-details h6{
+		font-weight: bold;
+	}
+
+
+
+
+	@media screen and (max-width: 575px) {
+
+		.contact-form form {
+		    padding: 30px!important;
+		}
+
+		.contact-form ul{
+			padding: 0px;
+		}
+		.apply-now-btn {
+		    font-weight: 600;
+		    font-size: 15px;
+		    padding: 12px 22px;
+		    background-color: #FDAD33;
+		    border: none;
+		    margin-top: 30px;
+		}
+	}
+
+
+/*############################ New Career Page End########################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*##############################################*/
+			/* Millions of job */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Top Company */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Browse jobs by Category */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Come join with us */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Testimonials Area */
+/*#############################################*/
+
+
+/*##############################################*/
+			/* Footer Area */
+/*#############################################*/
+
+
+/*####################################################################################*/
+			/* FOR SMALL SIZED DEVICES | MAX WIDTH:575PX*/
+/*####################################################################################*/
+
+
+
+
+
+
