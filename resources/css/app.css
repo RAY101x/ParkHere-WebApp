@@ -1,0 +1,67 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f2f2f2;
+}
+
+.login-box, .register-box {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 20px;
+}
+
+.login-box {
+	width: 350px;
+}
+
+.register-box {
+	width: 450px;
+}
+
+.form-header {
+	margin-bottom: 20px;
+}
+
+.form-header h2 {
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+}
+
+form label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #0069d9;
+}
